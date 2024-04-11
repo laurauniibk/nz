@@ -19,4 +19,4 @@ marker.bindPopup(`
         <li>Länge: ${lng.toFixed(5)}</li>
     </ul>
 `).openPopup();
-L.control.scale({ metric: true, imperial: false }).addTo(map);
+L.control.scale({ imperial: false }).addTo(map);
